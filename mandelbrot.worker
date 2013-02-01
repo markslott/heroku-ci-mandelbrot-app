@@ -1,0 +1,4 @@
+#set the runtime language; this should be "java" for Java workers
+runtime "java"
+# exec is the file that will be executed when you queue a task
+exec "mandelbrot.jar" # replace with your jar file
